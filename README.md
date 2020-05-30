@@ -10,36 +10,56 @@ npm install --save @aman-atg/normal.css
 
 **CDN**
 
-- https://unpkg.com/@aman-atg/normal.css@1.0.1/normal.min.css
-- https://cdn.jsdelivr.net/npm/@aman-atg/normal.css@1.0.1/normal.min.css
+- https://unpkg.com/@aman-atg/normal.css
+- https://cdn.jsdelivr.net/npm/@aman-atg/normal.css
 
 **Download**
 
 # Usage
 
-## With CDN
-
-```sh
- <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@aman-atg/normal.css@1.0.1/normal.min.css"
-  />
-```
-
-**OR**
+**In HTML**
 
 ```sh
   <link
     rel="stylesheet"
-    href="https://unpkg.com/@aman-atg/normal.css@1.0.1/normal.min.css"
+    href="https://unpkg.com/@aman-atg/normal.css"
   />
 ```
 
-## With File
+_OR_
 
 ```sh
-<link rel="stylesheet" href="/location/of/normal.min.css"/>
+  <link
+    rel="stylesheet"
+    href="path/to/local/normal.min.css"
+  />
 ```
+
+**In CSS/SCSS**
+
+```sh
+@import url("https://unpkg.com/@aman-atg/normal.css");
+```
+
+**In JS**
+
+```sh
+import "@aman-atg/normal.css";
+```
+
+_OR_
+
+```sh
+require("@aman-atg/normal.css');
+```
+
+_OR_
+
+```sh
+require("path/to/local/normal.min.css");
+```
+
+**Note:- First two will work if You have the npm package.**
 
 ## What does it do?
 
