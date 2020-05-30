@@ -1,12 +1,13 @@
 {
-  "name": "normal.css",
-  "version": "1.0.0",
+  "name": "@aman-atg/normal.css",
+  "version": "1.0.1",
   "description": "A modern alternative to CSS resets",
   "main": "normal.css",
   "style": "normal.min.css",
   "files": [
     "LICENSE.md",
-    "normal.css"
+    "normal.css",
+    "normal.min.css"
   ],
   "repository": "aman-atg/normal.css",
   "license": "MIT",
