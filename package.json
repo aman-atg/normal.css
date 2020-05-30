@@ -1,9 +1,9 @@
 {
   "name": "@aman-atg/normal.css",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A modern alternative to CSS resets",
-  "main": "normal.css",
-  "style": "normal.min.css",
+  "main": "normal.min.css",
+  "style": "normal.css",
   "files": [
     "LICENSE.md",
     "normal.css",
@@ -12,6 +12,5 @@
   "repository": "aman-atg/normal.css",
   "license": "MIT",
   "bugs": "https://github.com/aman-atg/normal.css/issues",
-  "homepage": "https://github.com/aman-atg/normal.css",
-  "dependencies": {}
+  "homepage": "https://github.com/aman-atg/normal.css"
 }
