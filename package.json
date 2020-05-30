@@ -1,6 +1,6 @@
 {
   "name": "@aman-atg/normal.css",
-  "version": "1.0.4",
+  "version": "2.0.1",
   "description": "A modern alternative to CSS resets",
   "main": "normal.min.css",
   "style": "normal.css",
