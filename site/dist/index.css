@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 body {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
+  margin-left: 125px;
+  margin-right: 250px;
 }
 
 .Header {
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 .Header h1 {
   font-size: 35px;
@@ -12,8 +15,32 @@ body {
   text-align: center;
   font-weight: 400;
 }
+.Header .tagline {
+  margin: 5px;
+  color: #777777;
+}
+
 .code {
-  background-color: red;
+  align-items: center;
+  background: #3f4864;
+  box-shadow: 2px 5px 3px black;
+  color: #a1aac7;
+  display: flex;
+  font-family: monospace;
+  font-size: 15px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 90px 0 50px;
+  width: max-content;
+  margin-bottom: 30px;
+}
+
+.waysToUse {
+  width: 100%;
+  background: linear-gradient(to right, #f3f3f3, #f9f9f9);
+  padding: 5px 15px;
+  margin-bottom: 30px;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=index.css.map */
