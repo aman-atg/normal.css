@@ -1,2 +1,4 @@
 node_modules
 site/dev
+site/dist/index.css.map
+site/dist/index.scss

@@ -9,6 +9,9 @@
     "normal.css",
     "normal.min.css"
   ],
+  "scripts": {
+    "start": "cd site/dist && sass --watch index.scss:index.css"
+  },
   "repository": "aman-atg/normal.css",
   "license": "MIT",
   "bugs": "https://github.com/aman-atg/normal.css/issues",
