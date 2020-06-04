@@ -15,6 +15,9 @@ npm install --save @aman-atg/normal.css
 
 **Download**
 
+ - [Zip File](https://github.com/aman-atg/normal.css/zipball/master)
+ - [Tar.gz File](https://github.com/aman-atg/normal.css/tarball/master)
+ 
 # Usage
 
 **In HTML**
