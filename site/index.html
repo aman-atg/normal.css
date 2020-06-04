@@ -11,8 +11,47 @@
   <body>
     <div class="Header">
       <h1>normal.css</h1>
+      <p class="tagline">
+        A modern alternative to CSS resets
+      </p>
+      <!-- 2 or 3 buttons -->
     </div>
-
+    <!-- add better classes + switching -->
+    <div class="waysToUse">
+      <h1>NPM</h1>
+      <div class="code">
+        $ npm i @aman-atg/normal.css
+      </div>
+    </div>
+    <div class="waysToUse">
+      <h1>CDN</h1>
+      <div class="code">
+        &lt;link rel="stylesheet" href="https://unpkg.com/@aman-atg/normal.css"
+        /&gt;
+      </div>
+      <div class="code">
+        &lt;link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@aman-atg/normal.css" /&gt;
+      </div>
+    </div>
+    <div class="waysToUse">
+      <h1>CSS/SCSS</h1>
+      <div class="code">
+        @import url("https://unpkg.com/@aman-atg/normal.css");
+      </div>
+    </div>
+    <div class="waysToUse">
+      <h1>JS</h1>
+      <div class="code">
+        @import "@aman-atg/normal.css";
+      </div>
+      <div class="code">
+        require "@aman-atg/normal.css";
+      </div>
+      <div class="code">
+        require "path/to/local/normal.min.css";
+      </div>
+    </div>
     <script src="./dist/index.js"></script>
   </body>
 </html>
