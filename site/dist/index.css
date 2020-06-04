@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap");
+body {
+  font-family: Poppins;
+}
+
+.Header {
+  padding-top: 30px;
+}
+.Header h1 {
+  font-size: 35px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+.code {
+  background-color: red;
+}
+
+/*# sourceMappingURL=index.css.map */
