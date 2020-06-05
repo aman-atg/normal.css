@@ -24,28 +24,19 @@ body {
   color: #556153;
 }
 .Header .cta .download {
-  background-color: #4a596d;
+  background-color: #125718;
   color: white;
-  border: 1.5px solid #4a596d;
   margin-right: 30px;
 }
-.Header .cta .download:hover {
-  color: #4a596d;
-  background: white;
-}
 .Header .cta .github {
-  background: gray;
+  background-color: #079107;
   color: white;
-  border: 1.5px solid gray;
-}
-.Header .cta .github:hover {
-  background: white;
-  color: gray;
 }
 
 .btn {
   outline: none;
   cursor: pointer;
+  border: none;
   font-size: 20px;
   transition: 500ms all ease-out;
   padding: 10px 15px;
@@ -54,9 +45,7 @@ body {
 }
 .btn:active {
   transform: translateY(4px);
-}
-.btn:hover {
-  box-shadow: none;
+  box-shadow: 2px 2px 2px #292929;
 }
 
 /*
