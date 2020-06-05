@@ -1,24 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  margin-left: 125px;
-  margin-right: 250px;
 }
 
 .Header {
+  background: linear-gradient(to right, #00cc29, #39ac73);
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 50px;
 }
-.Header h1 {
+.Header .banner {
+  margin-bottom: 5%;
+}
+.Header .banner h1 {
+  color: #044926;
   font-size: 35px;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: 400;
+  font-weight: 700;
+  margin: 0;
 }
-.Header .tagline {
-  margin: 5px;
-  color: #777777;
+.Header .banner .tagline {
+  font-style: italic;
+  margin: 15px 0;
+  color: #556153;
 }
+.Header .cta .download {
+  background-color: #4a596d;
+  color: white;
+  border: 1.5px solid #4a596d;
+  margin-right: 30px;
+}
+.Header .cta .download:hover {
+  color: #4a596d;
+  background: white;
+}
+.Header .cta .github {
+  background: gray;
+  color: white;
+  border: 1.5px solid gray;
+}
+.Header .cta .github:hover {
+  background: white;
+  color: gray;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 500ms all ease-out;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #292929;
+}
+.btn:active {
+  transform: translateY(4px);
+}
+.btn:hover {
+  box-shadow: none;
+}
+
+/*
+.body {
+  margin: {
+    left: 125px;
+    right: 250px;
+  }
+}
+
 
 .code {
   align-items: center;
@@ -34,7 +82,6 @@ body {
   width: max-content;
   margin-bottom: 30px;
 }
-
 .waysToUse {
   width: 100%;
   background: linear-gradient(to right, #f3f3f3, #f9f9f9);
@@ -42,5 +89,6 @@ body {
   margin-bottom: 30px;
   border-radius: 15px;
 }
+*/
 
 /*# sourceMappingURL=index.css.map */
