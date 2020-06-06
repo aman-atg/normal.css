@@ -88,8 +88,28 @@ body {
   font-size: 20px;
 }
 
+.npm a,
 .cdn a {
   font-size: 25px;
+}
+
+.switch {
+  width: max-content;
+  display: flex;
+}
+.switch button {
+  background: #948888;
+  border: 2px solid transparent;
+  outline: none;
+  transition: all 0.5s ease-out;
+  width: 30px;
+}
+.switch button:active {
+  filter: brightness(110%);
+}
+.switch button.active {
+  background: #d6d6d6;
+  border: 2px solid #252424;
 }
 
 /*
