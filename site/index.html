@@ -33,7 +33,7 @@
           </div>
         </section>
       </div>
-
+      <!-- cdn -->
       <div class="flex cdn">
         <a href="#cdn ">#</a>
         <section>
@@ -89,6 +89,11 @@
             <h1 class="sub-heading" id="inHTML">In HTML</h1>
             <div class="content">
               <!-- Can add tabs or something -->
+             <div class="switch">
+              <button class="one active">1</button> 
+              <button class="two">2</button> 
+              
+             </div>
               <div class="code">
                 &lt;link rel="stylesheet"
                 href="https://unpkg.com/@aman-atg/normal.css" /&gt;
@@ -121,26 +126,36 @@
             <h1 class="sub-heading" id="inJS">In Js</h1>
             <div class="content">
 
-<!--  -->
-              <div class="flex CommonJs">
-                <a href="#CommonJs ">#</a>
-                <section>
-                  <h1 class="sub-heading" id="CommonJs">CommonJs</h1>
-                  <div class="content">
-            
-              <div class="code">
-                @import "@aman-atg/normal.css";
-              </div>
-              </section>
-              </div>
-              <div class="code">
-                require "@aman-atg/normal.css";
-              </div>
-            </div>
+    <!--  -->
+    <div class="flex CommonJs">
+      <a href="#CommonJs ">#</a>
+      <section>
+        <h1 class="sub-heading" id="CommonJs">CommonJs</h1>
+        <div class="content">
+          <div class="code">
+          @import "@aman-atg/normal.css";
+          </div>
+      </section>
+    </div>
+
+    <!--  -->
+    <div class="flex Bundlers">
+      <a href="#Bundlers ">#</a>
+      <section>
+        <h1 class="sub-heading" id="Bundlers">Bundlers (Webpack , Rollup , etc)</h1>
+        <div class="content">
+          <div class="code">
+            require "@aman-atg/normal.css";
+          </div>
+      </section>
+    </div>
+      </div>
           </section>
         </div>
       </div>
-    </div>
+    </div> 
+
+
     <script src="./dist/index.js"></script>
   </body>
 </html>
