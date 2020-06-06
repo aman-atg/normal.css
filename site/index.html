@@ -64,41 +64,81 @@
           </div>
         </section>
       </div>
-    </div>
-    <!-- add better classes + switching -->
-    <div class="waysToUse">
-      <h1>NPM</h1>
-      <div class="code">
-        $ npm i @aman-atg/normal.css
+      <!-- NPM -->
+      <div class="flex npm">
+        <a href="#npm ">#</a>
+        <section>
+          <h1 class="sub-heading" id="npm">npm</h1>
+          <div class="labels">npm|version , downloads etc</div>
+          <div class="content">
+            npm i @aman-atg/normal.css
+          </div>
+        </section>
       </div>
-    </div>
-    <div class="waysToUse">
-      <h1>CDN</h1>
-      <div class="code">
-        &lt;link rel="stylesheet" href="https://unpkg.com/@aman-atg/normal.css"
-        /&gt;
-      </div>
-      <div class="code">
-        &lt;link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@aman-atg/normal.css" /&gt;
-      </div>
-    </div>
-    <div class="waysToUse">
-      <h1>CSS/SCSS</h1>
-      <div class="code">
-        @import url("https://unpkg.com/@aman-atg/normal.css");
-      </div>
-    </div>
-    <div class="waysToUse">
-      <h1>JS</h1>
-      <div class="code">
-        @import "@aman-atg/normal.css";
-      </div>
-      <div class="code">
-        require "@aman-atg/normal.css";
-      </div>
-      <div class="code">
-        require "path/to/local/normal.min.css";
+
+      <div class="integration">
+        <h1>Integration</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nihil
+          perspiciatis suscipit consequuntur.
+        </p>
+
+        <div class="flex inHTML">
+          <a href="#inHTML ">#</a>
+          <section>
+            <h1 class="sub-heading" id="inHTML">In HTML</h1>
+            <div class="content">
+              <!-- Can add tabs or something -->
+              <div class="code">
+                &lt;link rel="stylesheet"
+                href="https://unpkg.com/@aman-atg/normal.css" /&gt;
+              </div>
+              <div class="code">
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/@aman-atg/normal.css" /&gt;
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--  -->
+        <div class="flex inCSS">
+          <a href="#inCSS ">#</a>
+          <section>
+            <h1 class="sub-heading" id="inCSS">In CSS/SCSS</h1>
+            <div class="content">
+              <!-- Can add tabs or something -->
+              <div class="code">
+                @import url("https://unpkg.com/@aman-atg/normal.css");
+              </div>
+            </div>
+          </section>
+        </div>
+        <!--  -->
+        <div class="flex inJS">
+          <a href="#inJS ">#</a>
+          <section>
+            <h1 class="sub-heading" id="inJS">In Js</h1>
+            <div class="content">
+
+<!--  -->
+              <div class="flex CommonJs">
+                <a href="#CommonJs ">#</a>
+                <section>
+                  <h1 class="sub-heading" id="CommonJs">CommonJs</h1>
+                  <div class="content">
+            
+              <div class="code">
+                @import "@aman-atg/normal.css";
+              </div>
+              </section>
+              </div>
+              <div class="code">
+                require "@aman-atg/normal.css";
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
     <script src="./dist/index.js"></script>
