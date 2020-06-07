@@ -14,6 +14,13 @@
   },
   "repository": "aman-atg/normal.css",
   "license": "MIT",
+  "keywords": [
+    "css",
+    "reset",
+    "normalize",
+    "lightweight",
+    "normal.css"
+  ],
   "bugs": "https://github.com/aman-atg/normal.css/issues",
-  "homepage": "https://github.com/aman-atg/normal.css"
+  "homepage": "https://normal-css.now.sh"
 }
