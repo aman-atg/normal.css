@@ -1,4 +1,4 @@
-# normal.css    (Go to [Site](normal-css.now.sh))
+# normal.css    (Go to [Site](https://normal-css.now.sh))
 
 > A modern alternative to CSS resets 
 
