@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Open+Sans&display=swap");
 html {
   box-sizing: border-box;
 }
@@ -10,6 +11,7 @@ html {
 }
 
 body {
+  background: #f7f7f7;
   font-family: "Poppins", sans-serif;
 }
 
@@ -62,6 +64,7 @@ body {
 }
 
 .Body {
+  font-family: Open Sans, sans-serif;
   margin-left: 125px;
   margin-right: 250px;
 }
@@ -110,6 +113,31 @@ body {
 .switch button.active {
   background: #d6d6d6;
   border: 2px solid #252424;
+}
+
+.code {
+  font-family: DM Mono;
+  background: #d7d7d7;
+}
+
+.red {
+  color: #c82829;
+}
+
+.green {
+  color: #718c00;
+}
+
+.violet {
+  color: #8959a8;
+}
+
+.black {
+  color: #333333;
+}
+
+.orange {
+  color: #f5851f;
 }
 
 /*
