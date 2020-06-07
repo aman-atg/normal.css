@@ -1,6 +1,6 @@
-# normal.css
+# normal.css    (Go to [Site](normal-css.now.sh))
 
-> A modern alternative to CSS resets
+> A modern alternative to CSS resets 
 
 **NPM**
 
