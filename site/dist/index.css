@@ -88,13 +88,13 @@ body a {
 }
 .installation h1,
 .integration h1 {
+  font-size: 28px;
   background: rgba(1, 14, 1, 0.377);
   width: max-content;
   font-family: Poppins;
   margin: 0;
   padding: 10px;
   border-radius: 15px;
-  color: #092c11;
 }
 .installation p,
 .integration p {
@@ -131,25 +131,6 @@ body a {
   margin-bottom: 5px;
 }
 
-.switch {
-  width: max-content;
-  display: flex;
-}
-.switch button {
-  background: #948888;
-  border: 2px solid transparent;
-  outline: none;
-  transition: all 0.5s ease-out;
-  width: 30px;
-}
-.switch button:active {
-  filter: brightness(110%);
-}
-.switch button.active {
-  background: #d6d6d6;
-  border: 2px solid #252424;
-}
-
 .code {
   padding: 10px 5px;
   font-family: DM Mono;
@@ -158,8 +139,8 @@ body a {
 }
 
 .link {
-  padding-top: 5px;
   cursor: pointer;
+  padding-top: 5px;
 }
 .link a {
   font-family: Arial, Helvetica, sans-serif;
@@ -188,6 +169,14 @@ body a {
 
 .orange {
   color: #f5851f;
+}
+
+@media screen and (max-width: 700px) {
+  .Body .inHTML .code,
+.Body .inCSS .code {
+    overflow: scroll;
+    width: 85vw;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
