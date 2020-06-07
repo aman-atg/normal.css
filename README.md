@@ -1,6 +1,6 @@
-# normal.css
+# normal.css    (Go to [Site](https://normal-css.now.sh))
 
-> A modern alternative to CSS resets
+> A modern alternative to CSS resets. Read about [Reset Stylesheet](https://en.wikipedia.org/wiki/Reset_style_sheet) 
 
 **NPM**
 
@@ -78,9 +78,11 @@ require("path/to/local/normal.min.css");
 
 ## Normalize.css Vs Normal.css
 
+- 84% smaller in size than Normalize.css 
 - Use this one only if you are looking for a basic css reset and don't want too much code.
 - This version doesn't contain extra code for elements like :- sub,sup,small,fieldset,legend,progress,details,summary,template
 - NO CODE FOR SOLVING ISSUES WITH INTERNET EXPLORER
+
 
 ## Browser support
 
