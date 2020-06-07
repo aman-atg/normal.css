@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Open+Sans&display=swap");
 html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
@@ -16,6 +17,7 @@ body {
 }
 body a {
   color: inherit;
+  text-decoration: none;
 }
 
 .Header {
@@ -68,19 +70,31 @@ body a {
 
 .Body {
   font-family: Open Sans, sans-serif;
-  margin-left: 125px;
-  margin-right: 250px;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+@media screen and (max-width: 700px) {
+  .Body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .installation,
 .integration {
   margin: 15px 0;
+  font-size: 25px;
   margin-bottom: 15px;
 }
 .installation h1,
 .integration h1 {
+  background: rgba(1, 14, 1, 0.377);
+  width: max-content;
+  font-family: Poppins;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  border-radius: 15px;
+  color: #092c11;
 }
 .installation p,
 .integration p {
@@ -143,6 +157,19 @@ body a {
   margin-bottom: 10px;
 }
 
+.link {
+  padding-top: 5px;
+  cursor: pointer;
+}
+.link a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #080875;
+  font-size: 25px;
+}
+.link img {
+  width: 25px;
+}
+
 .red {
   color: #c82829;
 }
@@ -162,31 +189,5 @@ body a {
 .orange {
   color: #f5851f;
 }
-
-/*
-
-
-.code {
-  align-items: center;
-  background: #3f4864;
-  box-shadow: 2px 5px 3px black;
-  color: #a1aac7;
-  display: flex;
-  font-family: monospace;
-  font-size: 15px;
-  height: 50px;
-  border-radius: 10px;
-  padding: 0 90px 0 50px;
-  width: max-content;
-  margin-bottom: 30px;
-}
-.waysToUse {
-  width: 100%;
-  background: linear-gradient(to right, #f3f3f3, #f9f9f9);
-  padding: 5px 15px;
-  margin-bottom: 30px;
-  border-radius: 15px;
-}
-*/
 
 /*# sourceMappingURL=index.css.map */
